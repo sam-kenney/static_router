@@ -11,4 +11,4 @@ jobs:
       - name: Install Mypy
         run: pip install mypy
       - name: Run Mypy
-        run: mypy . --install_types
+        run: mypy . --install-types
